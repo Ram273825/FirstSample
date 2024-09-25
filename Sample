@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Semantic Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Sample Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About This Page</h2>
+            <p>Just a sample page.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Image Gallery</h2>
+            <figure>
+                <img src="https://via.placeholder.com/150" alt="Sample Image 1">
+                <figcaption>Sample Image 1</figcaption>
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/150" alt="Sample Image 2">
+                <figcaption>Sample Image 2</figcaption>
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/150" alt="Sample Image 3">
+                <figcaption>Sample Image 3</figcaption>
+            </figure>
+        </section>
+
+        <section id="list">
+            <h2>Things I Like</h2>
+            <ul>
+                <li>Reading books</li>
+                <li>Exploring new places</li>
+                <li>Learning new technologies</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>For more information, visit <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D" target="_blank">https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D</a></p>
+    </footer>
+</body>
+</html>
